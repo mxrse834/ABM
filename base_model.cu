@@ -4,8 +4,29 @@
 #include <curand_kernel.h>
 #include <stdint.h>
 
-#define N_H 1000000 // households
-#define N_F 1000    // firms
+
+
+// Households
+#define N_H 1000000 
+
+
+// Firms
+#define N_F 1000
+///The division of firms 
+/*
+Food (cereals, pulses, vegetables etc.) — ~350 firms
+Fuel (diesel, LPG, kerosene) — ~100 firms
+Manufacturing (clothing, household goods) — ~200 firms
+Services (health, education, transport) — ~250 firms
+Housing — ~100 firms
+*/
+#define N_F_food 350
+#define N_F_fuel 100
+#define N_F_manufacturing 200
+#define N_F_services 250
+#define N_F_housing 100
+
+
 #define N_B 1       // banks (scalar for now)
 typedef unsigned long ul;
 

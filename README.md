@@ -15,3 +15,14 @@ Agents (firms, households, banks, CB(RBI)), their state variables, and behaviora
         2.  What info is needed to make that decision?
         3.  What minimal info can be used for this purpose?
 
+REFERENCE: <!-- https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/02ARTICLE24112025AE19C2E642BA40CCB8F2505CB4B406D7.PDF -->
+Drawn inferences : 
+
+1) Diesel up 10% → inflation up 0.9%
+2) Exchange rate down 10% → inflation up 0.8%
+3) Demand up 1% → inflation up 0.2% 
+
+
+
+curent stage : pulled CPI DATA from gov stats , currently adjusting model parameters on the basis of this data ( in python)
+
